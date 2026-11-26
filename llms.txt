@@ -1,0 +1,19 @@
+# UAE Corporate Tax Client Engine
+
+> A bilingual client intake and qualification platform for UAE accounting and tax firms. It helps firms convert Corporate Tax enquiries into structured consultation opportunities.
+
+The platform is not affiliated with the UAE Federal Tax Authority and does not provide final tax or legal advice.
+
+## Product
+
+- [Home](https://uae-tax-client-engine.netlify.app/): Product overview and qualification example.
+- [How It Works](https://uae-tax-client-engine.netlify.app/how-it-works): The journey from an enquiry to a consultation-ready lead brief.
+- [Corporate Tax Assessment](https://uae-tax-client-engine.netlify.app/assessment): A guided readiness and qualification assessment.
+- [Pricing](https://uae-tax-client-engine.netlify.app/pricing): Confirmed setup and monthly plans for accounting firms.
+
+## Information
+
+- [Privacy](https://uae-tax-client-engine.netlify.app/privacy): How prospect information is handled.
+- [Terms and Disclaimer](https://uae-tax-client-engine.netlify.app/terms): Use limitations and professional-review requirements.
+
+Private admin pages and APIs are intentionally excluded.

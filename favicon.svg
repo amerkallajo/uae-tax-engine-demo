@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="UAE Corporate Tax Client Engine">
+  <rect width="64" height="64" fill="#111513"/>
+  <rect x="16" y="15" width="9" height="34" fill="#d65a32"/>
+  <rect x="35" y="15" width="9" height="13" fill="#d65a32"/>
+  <rect x="35" y="36" width="9" height="13" fill="#d65a32"/>
+  <path d="M25 22h10M25 43h10" stroke="#f4f1e9" stroke-width="3"/>
+</svg>

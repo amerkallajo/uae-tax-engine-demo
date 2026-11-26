@@ -1,0 +1,44 @@
+# UAE Corporate Tax Client Engine
+
+UAE Corporate Tax Client Engine is a bilingual web platform for UAE accounting and tax firms. It turns an unstructured Corporate Tax enquiry into a structured consultation opportunity through a guided assessment, explainable readiness scoring, lead capture, and an authenticated operator dashboard.
+
+## Who it is for
+
+The buyer is an accounting or tax firm that wants a branded, consistent way to receive and qualify enquiries. The public user is a UAE business owner or commercial decision-maker seeking help with Corporate Tax. Firm administrators and advisers use the dashboard to prioritize and follow up on submitted enquiries.
+
+## What it does
+
+The assessment asks about the entity, registration, approximate revenue band, Small Business Relief awareness or status, books and records, return preparation, VAT status, adviser support, timing, required services, and preferred consultation method. Conditional questions reduce unnecessary input.
+
+The readiness result uses deterministic rules. It presents a numeric readiness index, a classification, positive items, preparation gaps, and recommended actions. The server validates the submitted answers and recomputes the result before storing a lead.
+
+The firm dashboard includes isolated fictional demo data and production data. Operators can review lead priority, revenue band, likely service need, timing, status, source, campaign attribution, assessment answers, internal notes, and recommended actions. The product supports status updates, email and WhatsApp actions, CSV export, analytics, and firm settings.
+
+## What it does not do
+
+The platform does not calculate tax due, file a return with the UAE Federal Tax Authority, provide a binding eligibility decision, replace a qualified tax professional, or accept tax-document uploads. It is not a government website and is not affiliated with the Federal Tax Authority.
+
+## Languages and branding
+
+The public journey supports English and Arabic with LTR and RTL layouts. A firm can configure its name, logo URL, contact details, primary call to action, supported languages, brand colours, disclaimer, and retention setting.
+
+## Data handling
+
+Prospect submissions are sent to server-side Netlify Functions and stored in site-scoped Netlify Blobs. Administrative secrets are not shipped to the browser. Admin APIs require a signed server session. Admin and API paths are excluded from crawler access and indexing.
+
+## Commercial plans
+
+Founding Client: AED 7,500 setup and AED 950 per month.
+
+Standard: AED 12,500 setup and AED 1,250 per month.
+
+The implementation includes identity setup, assessment and campaign configuration, team training, and acceptance testing. Fifty percent is due at project approval and fifty percent before launch; the monthly subscription begins after launch. Final scope is confirmed in the implementation agreement.
+
+## Public pages
+
+- Home: https://uae-tax-client-engine.netlify.app/
+- How it works: https://uae-tax-client-engine.netlify.app/how-it-works
+- Pricing: https://uae-tax-client-engine.netlify.app/pricing
+- Assessment: https://uae-tax-client-engine.netlify.app/assessment
+- Privacy: https://uae-tax-client-engine.netlify.app/privacy
+- Terms and disclaimer: https://uae-tax-client-engine.netlify.app/terms
